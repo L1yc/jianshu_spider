@@ -13,13 +13,12 @@
 
 ###主要步骤   
 
-1.数据库操作。
+1.数据库操作。     
+     
+    1.连接 db = pymysql.connect(**kwards)     
+    2.创建 cursor = db.cursors()    
+    3.执行 cursor.execute(sql)     
+    4.提交 db.commit()      
 
-'''python  
-	连接 db = pymysql.connect(**kwards)  
-	创建 cursor = db.cursors()  
-	执行 cursor.execute(sql)   
-	提交 db.commit()
-'''
 
 	
