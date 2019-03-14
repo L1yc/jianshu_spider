@@ -11,7 +11,8 @@
 + scarpy startproject XXX
 + scrapy genspdier `-t crawl` XXX domain
 
-###主要步骤
+###主要步骤   
+
 1.数据库操作。
 
 '''python  
