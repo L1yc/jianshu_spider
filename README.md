@@ -20,5 +20,14 @@
     3.执行 cursor.execute(sql)     
     4.提交 db.commit()      
 
+使用twisted进行异步存储，加快爬取效率  
+```python  
+from twisted.enterprise import adbapi
+
+db = adbapi.ConnectionPool(mysql,**params)
+
+db.runInteraction()
+
+```
 
 	
