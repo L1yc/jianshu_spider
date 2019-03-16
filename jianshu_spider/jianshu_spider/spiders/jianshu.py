@@ -33,4 +33,5 @@ class JianshuSpider(CrawlSpider):
             like_count = re.sub(r'\D*','',like_count)
         item = JianshuItem(title=title,author=author,content=content,origin_url=origin_url,
                            pub_time=pub_time,word_count=word_count,read_count=read_count,like_count=like_count)
+
         yield item
