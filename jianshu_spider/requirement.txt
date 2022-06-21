@@ -46,7 +46,7 @@ MarkupSafe==1.1.1
 matplotlib==3.0.3
 mock==2.0.0
 mpmath==1.1.0
-numpy==1.16.2
+numpy==1.22.0
 opencv-python==4.0.0.21
 packaging==19.0
 parsel==1.5.1
